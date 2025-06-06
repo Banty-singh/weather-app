@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER_APP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b3df264adc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="weatherBox">
+        <p style="margin-top: 2rem;">SEARCH YOUR CITY</p>
+        <div class="SEARCH_BOX">
+            <input type="text" placeholder="enter your city name" class="city_name">
+            <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+        </div>
+
+        <div class="temp">
+            <img src="sunn.png" alt="img" class="sun_img">
+            <p class="temperature">temp: 55 °C</p>
+            <p class="desc">haze</p>
+        </div>
+        <div class="not_found">
+                <h1>Location not found</h1>
+                <img src="not found.jpg" alt="" class="not_fnd">
+            </div>
+        <div class="additionl">
+            <div class="wind">
+                <span> <i class="fa-solid fa-wind"></i></span>
+                <p>wind speed</p>
+                <p class="winds">40km/h</p>
+            </div>
+            <div class="humidity">
+                <i class="fa-solid fa-droplet"></i>
+                <p>Humidity</p>
+                <p class="humid">40%</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
